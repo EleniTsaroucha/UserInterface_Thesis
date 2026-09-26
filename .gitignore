@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Session logs - participant data
+logs/
+mock_experiment_logs/
+*_sensitive_events.csv
+
+# Official logos and emblems - not redistributed
+assets/
+
+# Obsolete scripts (not used by main.py)
+build_stimuli.py
+gov_login_screens.py
+
+# Virtual machine images
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.iso
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
