@@ -40,7 +40,7 @@ The two profiles correspond to two work personas: **A**, a machine learning engi
 
 ## Requirements
 
-- Python 3 [TODO: exact version used]
+- Python 3 
 - PyQt6
 
 ```powershell
@@ -76,7 +76,7 @@ The OS-style login passwords are `1234` (profile A) and `5678` (profile B).
 
 ### Modes
 
-- **Protocol mode (`--protocol`)** [TODO: confirm this is the mode used in the experiments]. The session is organized into trials. All task emails are available in the inbox at once, and the participant chooses which to open and answer. Each trial has a maximum duration of 6 minutes, and a deterministic "attacker window" (60–150 s after the trial starts) is logged as the moment the observer should enter.
+- **Protocol mode (`--protocol`)**. The session is organized into trials. All task emails are available in the inbox at once, and the participant chooses which to open and answer. Each trial has a maximum duration of 6 minutes, and a deterministic "attacker window" (60–150 s after the trial starts) is logged as the moment the observer should enter.
 - **Guided mode (default).** A scripted sequence of 14 steps (read credentials, log in to the bank, pay, book an appointment, sign a document with a one-time code), with on-screen instructions and per-step time limits.
 
 ### Experimenter controls
@@ -127,8 +127,4 @@ The mock government pages can display logos from an `assets/` directory. These f
 ## Author
 
 Eleni Tsaroucha, Department of Computer Engineering and Informatics, University of Patras.
-Supervisor: [TODO: name].
 
-## License
-
-[TODO: choose a license after checking the University's regulations on the intellectual property of diploma theses.]
